@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    font-family: Verdana;
+  }
+  h1 {
+    margin-top: 1.5rem;
+  }
+  h1, p {
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    align-items: center;
+  }
+  
+  fieldset {
+    padding: 1rem 0;
+    border: none;
+  }
+  
+  form {
+    width: 47vw;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2rem ;
+    background-color: rgba(27, 27, 50, 0.8);
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+  #name, #email, #number, 
+  textarea,
+  select {
+    margin: 15px 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 5px;
+  }
+  select {
+      padding: 0.7rem;
+  }
+  .inline, .input-checkbox {
+    margin: 10px 0 0 0;
+    width: 8%;
+    align-items: center;
+  }
+  input, textarea {
+    background-color: white;;
+    border: 1px solid #0a0a23;
+    min-height: 0.9rem;
+    padding: 0.7rem;
+   }
+   textarea {
+     min-height: 7rem;
+     width: 100%;
+   }
+   #submit {
+      width: 100%;
+      padding: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: skyblue;
+   }
+   @media (max-width: 800px) {
+    form {
+      width: 70vw;
+    }
+   }
